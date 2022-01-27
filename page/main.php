@@ -46,14 +46,14 @@
 					</div>
 				</div>
 				<div class="align-self-center">
-					<a href="" class="btn btn-primary mr-5"><i class="fa fa-plus"></i></a>
+					<a href="<?= url('index.php?page=deposit') ?>" class="btn btn-primary mr-5"><i class="fa fa-plus"></i></a>
 				</div>
 			</div>
 		</div>
 
 		<div class="row mt-5">
 			<div class="col-lg-4 col-6">
-				<a href="" class="text-decoration-none">
+				<a href="<?= url('index.php?page=order') ?>" class="text-decoration-none">
 					<div class="card border-0 shadow-sm">
 						<div class="card-body text-center">
 							<img src="img/service/1.png" alt="" class="img-service">
@@ -63,7 +63,7 @@
 				</a>
 			</div>
 			<div class="col-lg-4 col-6">
-				<a href="" class="text-decoration-none">
+				<a href="<?= url('index.php?page=order') ?>" class="text-decoration-none">
 					<div class="card border-0 shadow-sm">
 						<div class="card-body text-center">
 							<img src="img/service/2.png" alt="" class="img-service">
@@ -73,7 +73,7 @@
 				</a>
 			</div>
 			<div class="col-lg-4 col-6">
-				<a href="" class="text-decoration-none">
+				<a href="<?= url('index.php?page=order') ?>" class="text-decoration-none">
 					<div class="card border-0 shadow-sm">
 						<div class="card-body text-center">
 							<img src="img/service/3.png" alt="" class="img-service">
@@ -83,7 +83,7 @@
 				</a>
 			</div>
 			<div class="col-lg-4 col-6">
-				<a href="" class="text-decoration-none">
+				<a href="<?= url('index.php?page=order') ?>" class="text-decoration-none">
 					<div class="card border-0 shadow-sm">
 						<div class="card-body text-center">
 							<img src="img/service/4.png" alt="" class="img-service">
@@ -93,7 +93,7 @@
 				</a>
 			</div>
 			<div class="col-lg-4 col-6">
-				<a href="" class="text-decoration-none">
+				<a href="<?= url('index.php?page=order') ?>" class="text-decoration-none">
 					<div class="card border-0 shadow-sm">
 						<div class="card-body text-center">
 							<img src="img/service/5.png" alt="" class="img-service">
@@ -103,7 +103,7 @@
 				</a>
 			</div>
 			<div class="col-lg-4 col-6">
-				<a href="" class="text-decoration-none">
+				<a href="<?= url('index.php?page=order') ?>" class="text-decoration-none">
 					<div class="card border-0 shadow-sm">
 						<div class="card-body text-center">
 							<img src="img/service/6.png" alt="" class="img-service">
@@ -113,7 +113,7 @@
 				</a>
 			</div>
 			<div class="col-lg-4 col-6">
-				<a href="" class="text-decoration-none">
+				<a href="<?= url('index.php?page=order') ?>" class="text-decoration-none">
 					<div class="card border-0 shadow-sm">
 						<div class="card-body text-center">
 							<img src="img/service/7.png" alt="" class="img-service">
@@ -123,7 +123,7 @@
 				</a>
 			</div>
 			<div class="col-lg-4 col-6">
-				<a href="" class="text-decoration-none">
+				<a href="<?= url('index.php?page=order') ?>" class="text-decoration-none">
 					<div class="card border-0 shadow-sm">
 						<div class="card-body text-center">
 							<img src="img/service/8.png" alt="" class="img-service">
@@ -133,7 +133,7 @@
 				</a>
 			</div>
 			<div class="col-lg-4 col-6">
-				<a href="" class="text-decoration-none">
+				<a href="<?= url('index.php?page=order') ?>" class="text-decoration-none">
 					<div class="card border-0 shadow-sm">
 						<div class="card-body text-center">
 							<img src="img/service/9.png" alt="" class="img-service">
@@ -143,7 +143,7 @@
 				</a>
 			</div>
 			<div class="col-lg-4 col-6">
-				<a href="" class="text-decoration-none">
+				<a href="<?= url('index.php?page=order') ?>" class="text-decoration-none">
 					<div class="card border-0 shadow-sm">
 						<div class="card-body text-center">
 							<img src="img/service/10.png" alt="" class="img-service">
@@ -153,7 +153,7 @@
 				</a>
 			</div>
 			<div class="col-lg-4 col-6">
-				<a href="" class="text-decoration-none">
+				<a href="<?= url('index.php?page=order') ?>" class="text-decoration-none">
 					<div class="card border-0 shadow-sm">
 						<div class="card-body text-center">
 							<img src="img/service/11.png" alt="" class="img-service">
@@ -163,14 +163,14 @@
 				</a>
 			</div>
 			<div class="col-lg-4 col-6">
-				<a href="" class="text-decoration-none">
+				<button class="text-decoration-none w-100 border-0 bg-transparent p-0 cursor-pointer"  data-toggle="modal" data-target="#exampleModal2" type="button">
 					<div class="card border-0 shadow-sm">
 						<div class="card-body text-center">
 							<img src="img/service/12.png" alt="" class="img-service">
 							<h4 class="font-medium mt-3">Sosmed</h4>
 						</div>
 					</div>
-				</a>
+				</button>
 			</div>
 		</div>
 	</div>
@@ -278,12 +278,47 @@
 				</div>
 			</div>
 		</div>
-		
+
 		<div class="card mb-5">
 			<div class="card-header">
 				<div class="card-title">Berita & Informasi</div>
 			</div>
 			<div class="card-body">
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+<!-- Grid Modal -->
+<div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModal2" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title font-weight-bold" id="example-Modal2">ALL Kategori</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">×</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="row">
+					<?php for($i=0;$i<18;$i++) : ?>
+					<div class="col-lg-2 text-center mb-4">
+						<a href="" class="text-decoration-none">
+							<img src="img/service/modal/1.png" alt="" width="45">
+							<h5 class="mt-3 text-dark font-weight-semibold">Title</h5>
+						</a>
+					</div>
+					<?php endfor ?>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
 			</div>
 		</div>
 	</div>
