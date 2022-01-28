@@ -31,7 +31,7 @@
                                 <td>Rp 10.925</td>
                                 <td><span class="btn btn-success btn-elevate btn-pill btn-elevate-air btn-sm">Success</span>
                                 <td align="center">
-                                    <a href="https://riantopup.com/deposit-balance/invoice?kode_deposit=498279" class="btn btn-primary btn-elevate btn-circle btn-icon"><i class="fa fa-eye"></i></a>
+                                    <a href="<?= url('index.php?page=invoice') ?>" class="btn btn-primary btn-elevate btn-circle btn-icon"><i class="fa fa-eye"></i></a>
                                 </td>
                             </tr>
                         </tbody>

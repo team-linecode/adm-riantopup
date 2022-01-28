@@ -38,7 +38,7 @@
                                 <td><span class="btn btn-warning btn-elevate btn-pill btn-elevate-air btn-sm">Pending</span></td>
                                 <td><span class="btn btn-danger btn-elevate btn-circle btn-icon"><i class="fa fa-times-circle"></i></span></td>
                                 <td align="center">
-                                    <a href="https://riantopup.com/page/receipt-social-media?oid=9548957" class="btn btn-primary btn-elevate btn-circle btn-icon"><i class="fa fa-file"></i></a>
+                                    <a href="<?= url('index.php?page=receipt') ?>" class="btn btn-primary btn-elevate btn-circle btn-icon"><i class="fa fa-file"></i></a>
                                 </td>
                             </tr>
                         </tbody>

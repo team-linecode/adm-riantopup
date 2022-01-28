@@ -193,7 +193,7 @@ require_once 'global.php';
 				<div class="horizontal-mainwrapper container clearfix">
 					<nav class="horizontalMenu clearfix">
 						<ul class="horizontalMenu-list bg-white">
-							<li aria-haspopup="true"><a href="<?= url('index.php') ?>" class=""><i class="typcn typcn-device-desktop hor-icon"></i> Dashboard</a></li>
+							<li aria-haspopup="true"><a href="<?= url('index.php') ?>" class=""><i class="typcn typcn-device-desktop"></i> Dashboard</a></li>
 							<li aria-haspopup="true"><a href="widgets.html" class=""><i class="fa fa-user"></i> Admin</a></li>
 							<li aria-haspopup="true"><a href="#" class="sub-icon"><i class="typcn typcn-chart-pie-outline"></i> Menu Staff <i class="fa fa-angle-down horizontal-icon"></i></a>
 								<ul class="sub-menu">
@@ -203,14 +203,14 @@ require_once 'global.php';
 							</li>
 							<li aria-haspopup="true"><a href="<?= url('index.php?page=rank') ?>" class=""><i class="fa fa-trophy"></i> Peringkat bulanan</a></li>
 							<li aria-haspopup="true"><a href="<?= url('index.php?page=help') ?>" class=""><i class="fa fa-envelope"></i> CS Bantuan</a></li>
-							<li aria-haspopup="true"><a href="#" class="sub-icon"><i class="fa fa-list-ul"></i> Daftar Harga <i class="fa fa-angle-down horizontal-icon"></i></a>
+							<li aria-haspopup="true"><a href="#" class="sub-icon"><i class="typcn typcn-th-list"></i> Daftar Harga <i class="fa fa-angle-down horizontal-icon"></i></a>
 								<ul class="sub-menu">
 									<li aria-haspopup="true"><a href="<?= url('index.php?page=sosmed') ?>">Sosial Media</a></li>
 									<li aria-haspopup="true"><a href="<?= url('index.php?page=topup') ?>">Top Up</a></li>
 								</ul>
 							</li>
 
-							<li aria-haspopup="true"><a href="#" class="sub-icon"><i class="fa fa-book"></i> Halaman <i class="fa fa-angle-down horizontal-icon"></i></a>
+							<li aria-haspopup="true"><a href="#" class="sub-icon"><i class="typcn typcn-book"></i> Halaman <i class="fa fa-angle-down horizontal-icon"></i></a>
 								<ul class="sub-menu">
 									<li aria-haspopup="true"><a href="<?= url('index.php?page=api') ?>">API Dokumentasi</a></li>
 									<li aria-haspopup="true"><a href="buttons.html">Kontak Kami</a></li>
