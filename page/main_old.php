@@ -1,62 +1,27 @@
 <div class="row">
-	<div class="col-lg-7">
-		<div class="card mb-5">
-			<div class="card-header py-4">
-				<div class="card-title"><i class="fa mr-2 fa-home"></i> Grafik Mingguan</div>
+	<div class="col-lg-6">
+		<div id="carousel-controls" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img class="d-block w-100" alt="" src="img/banner/1.png" data-holder-rendered="true">
+				</div>
+				<div class="carousel-item">
+					<img class="d-block w-100" alt="" src="img/banner/2.png" data-holder-rendered="true">
+				</div>
+				<div class="carousel-item">
+					<img class="d-block w-100" alt="" src="img/banner/3.png" data-holder-rendered="true">
+				</div>
 			</div>
-			<div class="card-body">
-			</div>
+			<a class="carousel-control-prev" href="#carousel-controls" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carousel-controls" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
 		</div>
-	</div>
-	<div class="col-lg-5">
-		<div class="row">
-			<div class="col-6">
-				<div class="card">
-					<div class="card-body text-center">
-						<span class="bg-primary-transparent icon-service text-primary ">
-							<i class="si si-briefcase  fs-2"></i>
-						</span>
-						<p class="card-text text-muted mb-1 mt-5">Total Orders</p>
-						<h2 class="mb-0 text-dark mainvalue font-weight-semibold">6,895</h2>
-					</div>
-				</div>
-			</div>
-			<div class="col-6">
-				<div class="card">
-					<div class="card-body text-center">
-						<span class="bg-success-transparent icon-service text-success">
-							<i class="si si-layers fs-2"></i>
-						</span>
-						<p class="card-text text-muted mb-1 mt-5">Total Products</p>
-						<h2 class="mb-0 text-dark mainvalue font-weight-semibold">8,379</h2>
-					</div>
-				</div>
-			</div>
-			<div class="col-6">
-				<div class="card">
-					<div class="card-body text-center">
-						<span class="bg-danger-transparent icon-service text-danger">
-							<i class="si si-note  fs-2"></i>
-						</span>
-						<p class="card-text text-muted mb-1 mt-5">Total Feedbacks</p>
-						<h2 class="mb-0 text-dark mainvalue font-weight-semibold">1,345</h2>
-					</div>
-				</div>
-			</div>
-			<div class="col-6">
-				<div class="card">
-					<div class="card-body text-center">
-						<span class="bg-warning-transparent icon-service text-warning">
-							<i class="si si-basket-loaded  fs-2"></i>
-						</span>
-						<p class="card-text text-muted mb-1 mt-5">Total Sold</p>
-						<h2 class="mb-0 text-dark mainvalue font-weight-semibold">2,456K</h2>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="col-lg-7">
+
 		<div class="alert alert-success alert-dismissible fade show mt-5" role="alert">
 			<span class="alert-inner--icon"><i class="fa fa-whatsapp"></i></span>
 			<span class="alert-inner--text"><strong>Join Group WhatsApp</strong> <a href="" class="ml-1">KLIK DISINI</a></span>
@@ -86,7 +51,130 @@
 			</div>
 		</div>
 
-
+		<div class="row mt-5">
+			<div class="col-lg-4 col-6">
+				<a href="<?= url('index.php?page=order') ?>" class="text-decoration-none">
+					<div class="card border-0 shadow-sm">
+						<div class="card-body text-center">
+							<img src="img/service/1.png" alt="" class="img-service">
+							<h4 class="font-medium mt-3">Sosmed</h4>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="col-lg-4 col-6">
+				<a href="<?= url('index.php?page=order') ?>" class="text-decoration-none">
+					<div class="card border-0 shadow-sm">
+						<div class="card-body text-center">
+							<img src="img/service/2.png" alt="" class="img-service">
+							<h4 class="font-medium mt-3">Sosmed</h4>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="col-lg-4 col-6">
+				<a href="<?= url('index.php?page=order') ?>" class="text-decoration-none">
+					<div class="card border-0 shadow-sm">
+						<div class="card-body text-center">
+							<img src="img/service/3.png" alt="" class="img-service">
+							<h4 class="font-medium mt-3">Sosmed</h4>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="col-lg-4 col-6">
+				<a href="<?= url('index.php?page=order') ?>" class="text-decoration-none">
+					<div class="card border-0 shadow-sm">
+						<div class="card-body text-center">
+							<img src="img/service/4.png" alt="" class="img-service">
+							<h4 class="font-medium mt-3">Sosmed</h4>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="col-lg-4 col-6">
+				<a href="<?= url('index.php?page=order') ?>" class="text-decoration-none">
+					<div class="card border-0 shadow-sm">
+						<div class="card-body text-center">
+							<img src="img/service/5.png" alt="" class="img-service">
+							<h4 class="font-medium mt-3">Sosmed</h4>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="col-lg-4 col-6">
+				<a href="<?= url('index.php?page=order') ?>" class="text-decoration-none">
+					<div class="card border-0 shadow-sm">
+						<div class="card-body text-center">
+							<img src="img/service/6.png" alt="" class="img-service">
+							<h4 class="font-medium mt-3">Sosmed</h4>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="col-lg-4 col-6">
+				<a href="<?= url('index.php?page=order') ?>" class="text-decoration-none">
+					<div class="card border-0 shadow-sm">
+						<div class="card-body text-center">
+							<img src="img/service/7.png" alt="" class="img-service">
+							<h4 class="font-medium mt-3">Sosmed</h4>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="col-lg-4 col-6">
+				<a href="<?= url('index.php?page=order') ?>" class="text-decoration-none">
+					<div class="card border-0 shadow-sm">
+						<div class="card-body text-center">
+							<img src="img/service/8.png" alt="" class="img-service">
+							<h4 class="font-medium mt-3">Sosmed</h4>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="col-lg-4 col-6">
+				<a href="<?= url('index.php?page=order') ?>" class="text-decoration-none">
+					<div class="card border-0 shadow-sm">
+						<div class="card-body text-center">
+							<img src="img/service/9.png" alt="" class="img-service">
+							<h4 class="font-medium mt-3">Sosmed</h4>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="col-lg-4 col-6">
+				<a href="<?= url('index.php?page=order') ?>" class="text-decoration-none">
+					<div class="card border-0 shadow-sm">
+						<div class="card-body text-center">
+							<img src="img/service/10.png" alt="" class="img-service">
+							<h4 class="font-medium mt-3">Sosmed</h4>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="col-lg-4 col-6">
+				<a href="<?= url('index.php?page=order') ?>" class="text-decoration-none">
+					<div class="card border-0 shadow-sm">
+						<div class="card-body text-center">
+							<img src="img/service/11.png" alt="" class="img-service">
+							<h4 class="font-medium mt-3">Sosmed</h4>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="col-lg-4 col-6">
+				<button class="text-decoration-none w-100 border-0 bg-transparent p-0 cursor-pointer"  data-toggle="modal" data-target="#exampleModal2" type="button">
+					<div class="card border-0 shadow-sm">
+						<div class="card-body text-center">
+							<img src="img/service/12.png" alt="" class="img-service">
+							<h4 class="font-medium mt-3">Sosmed</h4>
+						</div>
+					</div>
+				</button>
+			</div>
+		</div>
+	</div>
+	<div class="col-lg-6">
 		<div class="card mb-5">
 			<div class="card-header py-4">
 				<div class="card-title"><i class="fa mr-2 fa-refresh"></i> 10 Riwayat Pesanan Terakhir Kamu</div>
@@ -190,8 +278,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class="col-lg-5">
+
 		<div class="card mb-5">
 			<div class="card-header">
 				<div class="card-title">Berita & Informasi</div>
@@ -220,13 +307,13 @@
 			</div>
 			<div class="modal-body">
 				<div class="row">
-					<?php for ($i = 0; $i < 18; $i++) : ?>
-						<div class="col-lg-2 text-center mb-4">
-							<a href="" class="text-decoration-none">
-								<img src="img/service/modal/1.png" alt="" width="45">
-								<h5 class="mt-3 text-dark font-weight-semibold">Title</h5>
-							</a>
-						</div>
+					<?php for($i=0;$i<18;$i++) : ?>
+					<div class="col-lg-2 text-center mb-4">
+						<a href="" class="text-decoration-none">
+							<img src="img/service/modal/1.png" alt="" width="45">
+							<h5 class="mt-3 text-dark font-weight-semibold">Title</h5>
+						</a>
+					</div>
 					<?php endfor ?>
 				</div>
 			</div>
