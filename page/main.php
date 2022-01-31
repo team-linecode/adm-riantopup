@@ -2,7 +2,7 @@
 	<div class="col-lg-7">
 		<div class="card mb-5">
 			<div class="card-header py-4">
-				<div class="card-title"><i class="fa mr-2 fa-home"></i> Grafik Mingguan</div>
+				<div class="card-title"><i class="fa mr-2 fa-bar-chart"></i> Grafik Mingguan</div>
 			</div>
 			<div class="card-body">
 			</div>
@@ -14,10 +14,10 @@
 				<div class="card">
 					<div class="card-body text-center">
 						<span class="bg-primary-transparent icon-service text-primary ">
-							<i class="si si-briefcase  fs-2"></i>
+							<i class="fa fa-credit-card  fs-2"></i>
 						</span>
-						<p class="card-text text-muted mb-1 mt-5">Total Orders</p>
-						<h2 class="mb-0 text-dark mainvalue font-weight-semibold">6,895</h2>
+						<p class="card-text text-muted mb-1 mt-5">Sisa Saldo</p>
+						<h3 class="mb-0 text-dark mainvalue font-weight-semibold">Rp. 99.488.120</h4>
 					</div>
 				</div>
 			</div>
@@ -27,8 +27,8 @@
 						<span class="bg-success-transparent icon-service text-success">
 							<i class="si si-layers fs-2"></i>
 						</span>
-						<p class="card-text text-muted mb-1 mt-5">Total Products</p>
-						<h2 class="mb-0 text-dark mainvalue font-weight-semibold">8,379</h2>
+						<p class="card-text text-muted mb-1 mt-5">Saldo Terpakai</p>
+						<h3 class="mb-0 text-dark mainvalue font-weight-semibold">Rp. 99.488.120</h4>
 					</div>
 				</div>
 			</div>
@@ -36,10 +36,10 @@
 				<div class="card">
 					<div class="card-body text-center">
 						<span class="bg-danger-transparent icon-service text-danger">
-							<i class="si si-note  fs-2"></i>
+							<i class="fa fa-bar-chart  fs-2"></i>
 						</span>
-						<p class="card-text text-muted mb-1 mt-5">Total Feedbacks</p>
-						<h2 class="mb-0 text-dark mainvalue font-weight-semibold">1,345</h2>
+						<p class="card-text text-muted mb-1 mt-5">Jumlah Pesanan</p>
+						<h3 class="mb-0 text-dark mainvalue font-weight-semibold">1345</h3>
 					</div>
 				</div>
 			</div>
@@ -47,10 +47,10 @@
 				<div class="card">
 					<div class="card-body text-center">
 						<span class="bg-warning-transparent icon-service text-warning">
-							<i class="si si-basket-loaded  fs-2"></i>
+							<i class="fa fa-user  fs-2"></i>
 						</span>
-						<p class="card-text text-muted mb-1 mt-5">Total Sold</p>
-						<h2 class="mb-0 text-dark mainvalue font-weight-semibold">2,456K</h2>
+						<p class="card-text text-muted mb-1 mt-5">IP Address</p>
+						<h3 class="mb-0 text-dark mainvalue font-weight-semibold">114.79.3.79</h3>
 					</div>
 				</div>
 			</div>
@@ -194,9 +194,45 @@
 	<div class="col-lg-5">
 		<div class="card mb-5">
 			<div class="card-header">
-				<div class="card-title">Berita & Informasi</div>
+				<div class="card-title">Berita Terbaru | Update</div>
 			</div>
 			<div class="card-body">
+				<div>
+					<a href="" class="text-decoration-none">
+						<div class="d-flex">
+							<p class="text-muted mb-0"><i class="fa fa-calendar mr-2"></i>16 November 2021</p>
+							<p class="text-muted m-0 mx-2">|</p>
+							<p class="text-muted mb-0"><i class="fa fa-user mr-2"></i>Admin</p>
+						</div>
+						<h4 class="font-weight-semibold mt-1 text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, corporis!</h4>
+						<p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque harum recusandae nihil necessitatibus sed minus dolorum autem, non hic corporis.</p>
+					</a>
+				</div>
+				<hr class="my-3">
+				<div>
+					<a href="" class="text-decoration-none">
+						<div class="d-flex">
+							<p class="text-muted mb-0"><i class="fa fa-calendar mr-2"></i>16 November 2021</p>
+							<p class="text-muted m-0 mx-2">|</p>
+							<p class="text-muted mb-0"><i class="fa fa-user mr-2"></i>Admin</p>
+						</div>
+						<h4 class="font-weight-semibold mt-1 text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, corporis!</h4>
+						<p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque harum recusandae nihil necessitatibus sed minus dolorum autem, non hic corporis.</p>
+					</a>
+				</div>
+				<hr class="my-3">
+				<div>
+					<a href="" class="text-decoration-none">
+						<div class="d-flex">
+							<p class="text-muted mb-0"><i class="fa fa-calendar mr-2"></i>16 November 2021</p>
+							<p class="text-muted m-0 mx-2">|</p>
+							<p class="text-muted mb-0"><i class="fa fa-user mr-2"></i>Admin</p>
+						</div>
+						<h4 class="font-weight-semibold mt-1 text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, corporis!</h4>
+						<p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque harum recusandae nihil necessitatibus sed minus dolorum autem, non hic corporis.</p>
+					</a>
+				</div>
+				<hr class="my-3">
 			</div>
 		</div>
 	</div>
