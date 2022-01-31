@@ -69,7 +69,7 @@
 		</div>
 	</div>
 	<div class="col-lg-7">
-		<div class="alert alert-success alert-dismissible fade show mt-5" role="alert">
+		<div class="alert alert-success alert-dismissible fade show" role="alert">
 			<span class="alert-inner--icon"><i class="fa fa-whatsapp"></i></span>
 			<span class="alert-inner--text"><strong>Join Group WhatsApp</strong> <a href="" class="ml-1">KLIK DISINI</a></span>
 			<button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -210,8 +210,10 @@
 			</div>
 			<div class="card-body">
 				<div>
-					<a href="" class="text-decoration-none">
+					<a href="<?= url('index.php?page=article') ?>" class="text-decoration-none">
 						<div class="d-flex">
+							<div class="badge badge-primary">Info</div>
+							<p class="text-muted m-0 mx-2">|</p>
 							<p class="text-muted mb-0"><i class="fa fa-calendar mr-2"></i>16 November 2021</p>
 							<p class="text-muted m-0 mx-2">|</p>
 							<p class="text-muted mb-0"><i class="fa fa-user mr-2"></i>Admin</p>
@@ -222,8 +224,10 @@
 				</div>
 				<hr class="my-3">
 				<div>
-					<a href="" class="text-decoration-none">
+					<a href="<?= url('index.php?page=article') ?>" class="text-decoration-none">
 						<div class="d-flex">
+							<div class="badge badge-primary">Info</div>
+							<p class="text-muted m-0 mx-2">|</p>
 							<p class="text-muted mb-0"><i class="fa fa-calendar mr-2"></i>16 November 2021</p>
 							<p class="text-muted m-0 mx-2">|</p>
 							<p class="text-muted mb-0"><i class="fa fa-user mr-2"></i>Admin</p>
@@ -234,8 +238,10 @@
 				</div>
 				<hr class="my-3">
 				<div>
-					<a href="" class="text-decoration-none">
+					<a href="<?= url('index.php?page=article') ?>" class="text-decoration-none">
 						<div class="d-flex">
+							<div class="badge badge-primary">Info</div>
+							<p class="text-muted m-0 mx-2">|</p>
 							<p class="text-muted mb-0"><i class="fa fa-calendar mr-2"></i>16 November 2021</p>
 							<p class="text-muted m-0 mx-2">|</p>
 							<p class="text-muted mb-0"><i class="fa fa-user mr-2"></i>Admin</p>
@@ -290,28 +296,43 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<div class="card text-white bg-gradient-primary">
+				<div class="py-3"></div>
+				<div class="card">
 					<div class="card-body">
-						<h4 class="card-title">
-							<div class="row align-items-center">
-								<div class="col-lg-6">
-									<div class="badge badge-secondary">INFO</div> Diamond Mobile Legends
+						<div>
+							<a href="<?= url('index.php?page=article') ?>" class="text-decoration-none">
+								<div class="d-flex">
+									<div class="badge badge-primary">Info</div>
+									<p class="text-muted m-0 mx-2">|</p>
+									<p class="text-muted mb-0"><i class="fa fa-calendar mr-2"></i>16 November 2021</p>
+									<p class="text-muted m-0 mx-2">|</p>
+									<p class="text-muted mb-0"><i class="fa fa-user mr-2"></i>Admin</p>
 								</div>
-								<div class="col-lg-6 text-right">
-									<small class="text-white mb-0">16 November 2021, 20:13:21</small>
+								<h4 class="font-weight-semibold mt-1 text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, corporis!</h4>
+								<p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque harum recusandae nihil necessitatibus sed minus dolorum autem, non hic corporis.</p>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-body">
+						<div>
+							<a href="<?= url('index.php?page=article') ?>" class="text-decoration-none">
+								<div class="d-flex">
+									<div class="badge badge-primary">Info</div>
+									<p class="text-muted m-0 mx-2">|</p>
+									<p class="text-muted mb-0"><i class="fa fa-calendar mr-2"></i>16 November 2021</p>
+									<p class="text-muted m-0 mx-2">|</p>
+									<p class="text-muted mb-0"><i class="fa fa-user mr-2"></i>Admin</p>
 								</div>
-							</div>
-						</h4>
-						<small class="card-text">
-							MOBILE LEGENDS SERVER 1 PROSES DETIKAN !<br>
-							APABILA SERVER 1 GANGGUAN / ERROR SILAHKAN PILIH SERVER 2 !<br>
-							<br><br>
-							PROSES DETIKAN DAN MURAH!
-						</small>
+								<h4 class="font-weight-semibold mt-1 text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, corporis!</h4>
+								<p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque harum recusandae nihil necessitatibus sed minus dolorum autem, non hic corporis.</p>
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>
-			<div class="modal-footer justify-content-center">
+			<div class="modal-footer justify-content-end">
 				<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fe fe-check"></i> Saya Sudah Membaca</button>
 			</div>
 		</div>

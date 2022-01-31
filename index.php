@@ -217,9 +217,9 @@ require_once 'global.php';
 							<li aria-haspopup="true"><a href="<?= url('index.php') ?>" class=""><i class="typcn typcn-device-desktop"></i> Dashboard</a></li>
 							<li aria-haspopup="true"><a href="#" class="sub-icon"><i class="fa fa-sticky-note-o"></i> Transaksi <i class="fa fa-angle-down horizontal-icon"></i></a>
 								<ul class="sub-menu">
-									<li aria-haspopup="true"><a href="<?= url('index.php?page=transfer') ?>">PPOB</a></li>
-									<li aria-haspopup="true"><a href="<?= url('index.php?page=code_invitation') ?>">Sosial Media</a></li>
-									<li aria-haspopup="true"><a href="<?= url('index.php?page=code_invitation') ?>">Topup Game</a></li>
+									<li aria-haspopup="true"><a href="<?= url('index.php?page=transaksi') ?>">PPOB</a></li>
+									<li aria-haspopup="true"><a href="<?= url('index.php?page=sosmed_transaksi') ?>">Sosial Media</a></li>
+									<li aria-haspopup="true"><a href="<?= url('index.php?page=game') ?>">Topup Game</a></li>
 								</ul>
 							</li>
 							<li aria-haspopup="true"><a href="#" class="sub-icon"><i class="typcn typcn-chart-pie-outline"></i> Menu Staff <i class="fa fa-angle-down horizontal-icon"></i></a>
