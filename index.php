@@ -101,46 +101,62 @@ require_once 'global.php';
 									<span class="pulse bg-success"></span>
 								</a>
 								<div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow ">
-									<a href="#" class="dropdown-item text-center">4 New Notifications</a>
+									<a href="#" class="dropdown-item text-center">Notifikasi PC</a>
+									<div class=" tab-menu-heading">
+										<div class="tabs-menu1">
+											<!-- Tabs -->
+											<ul class="nav panel-tabs">
+												<li><a href="#message" class="active" data-toggle="tab">Pesan</a></li>
+												<li><a href="#promo" data-toggle="tab">Promo</a></li>
+												<li><a href="#history" data-toggle="tab">Riwayat</a></li>
+											</ul>
+										</div>
+									</div>
 									<div class="dropdown-divider"></div>
-									<a href="#" class="dropdown-item d-flex pb-3">
-										<div class="notifyimg bg-green">
-											<i class="fe fe-mail"></i>
+									<div class="tab-content">
+										<div class="tab-pane active" id="message">
+											<a href="#" class="dropdown-item d-flex pb-3">
+												<div class="notifyimg bg-green">
+													<i class="fe fe-arrow-up"></i>
+												</div>
+												<div>
+													<strong>Penambahan Saldo (Rp 25.770)</strong>
+													<div class="small text-muted">31 Januari 2022, 11:31:04</div>
+												</div>
+											</a>
+											<a href="#" class="dropdown-item d-flex pb-3">
+												<div class="notifyimg bg-red">
+													<i class="fe fe-arrow-down"></i>
+												</div>
+												<div>
+													<strong>Pengurangan Saldo (Rp 55.650)</strong>
+													<div class="small text-muted">31 Januari 2022, 09:52:58</div>
+												</div>
+											</a>
 										</div>
-										<div>
-											<strong>Message Sent.</strong>
-											<div class="small text-muted">12 mins ago</div>
+										<div class="tab-pane" id="promo">
+											<a href="#" class="dropdown-item d-flex pb-3">
+												<div class="notifyimg bg-green">
+													<i class="fa fa-gift"></i>
+												</div>
+												<div>
+													<strong>Diamond ML Turun Harga</strong>
+													<div class="small text-muted">31 Januari 2022, 09:52:58</div>
+												</div>
+											</a>
 										</div>
-									</a>
-									<a href="#" class="dropdown-item d-flex pb-3">
-										<div class="notifyimg bg-pink">
-											<i class="fe fe-shopping-cart"></i>
+										<div class="tab-pane" id="history">
+											<a href="#" class="dropdown-item d-flex pb-3">
+												<div class="notifyimg bg-blue">
+													<i class="fe fe-shopping-cart"></i>
+												</div>
+												<div>
+													<strong>Pembelian Mobile Legends 257 Di...</strong>
+													<div class="small text-muted">31 Januari 2022, 09:52:58</div>
+												</div>
+											</a>
 										</div>
-										<div>
-											<strong>Order Placed</strong>
-											<div class="small text-muted">2 hour ago</div>
-										</div>
-									</a>
-									<a href="#" class="dropdown-item d-flex pb-3">
-										<div class="notifyimg bg-blue">
-											<i class="fe fe-calendar"></i>
-										</div>
-										<div>
-											<strong> Event Started</strong>
-											<div class="small text-muted">1 hour ago</div>
-										</div>
-									</a>
-									<a href="#" class="dropdown-item d-flex pb-3">
-										<div class="notifyimg bg-orange">
-											<i class="fe fe-monitor"></i>
-										</div>
-										<div>
-											<strong>Your Admin Lanuch</strong>
-											<div class="small text-muted">2 days ago</div>
-										</div>
-									</a>
-									<div class="dropdown-divider"></div>
-									<a href="#" class="dropdown-item text-center">View all Notifications</a>
+									</div>
 								</div>
 							</div><!-- notifications -->
 							<div class="dropdown header-user">
@@ -245,7 +261,7 @@ require_once 'global.php';
 						<div class="tabs-menu ">
 							<!-- Tabs -->
 							<ul class="nav panel-tabs">
-								<li class=""><a href="#tab" class="active" data-toggle="tab">Profile</a></li>
+								<li class=""><a href="<?= url('index.php?page=profile') ?>" class="active">Profile</a></li>
 								<!-- <li class=""><a href="#tab1" data-toggle="tab">Chat</a></li>
 								<li><a href="#tab2" data-toggle="tab">Activity</a></li>
 								<li><a href="#tab3" data-toggle="tab">Todo</a></li> -->
@@ -258,8 +274,8 @@ require_once 'global.php';
 								<div class="card-body p-0">
 									<div class="header-user text-center mt-4 pb-4">
 										<span class="avatar avatar-xxl brround"><img src="img/user.png" alt="Profile-img" class="avatar avatar-xxl brround"></span>
-										<div class="dropdown-item text-center font-weight-semibold user h3 mb-0">Alison</div>
-										<small>Web Designer</small>
+										<div class="dropdown-item text-center font-weight-semibold user h3 mb-0">Rian Dafa</div>
+										<small>Developers</small>
 										<div class="card-body">
 											<div class="form-group ">
 												<label class="form-label  text-left">Offline/Online</label>
