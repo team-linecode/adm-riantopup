@@ -84,6 +84,15 @@ body {
     padding: 10px 15px 10px 15px;
 }
 
+.tabs-menu ul li a {
+    margin: 3px 0px 3px 0;
+}
+
+#newsModal .bg-warning {
+    background-color: rgba(255, 202, 74, 0.3) !important;
+    color: #ffca4a !important;
+}
+
 @media (max-width: 576px) {
     .tabs-menu1 .tab-menu-heading {
         padding: 10px;

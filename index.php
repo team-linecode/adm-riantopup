@@ -229,9 +229,9 @@ require_once 'global.php';
 							<li aria-haspopup="true"><a href="#" class="sub-icon"><i class="typcn typcn-book"></i> Halaman <i class="fa fa-angle-down horizontal-icon"></i></a>
 								<ul class="sub-menu">
 									<li aria-haspopup="true"><a href="<?= url('index.php?page=api') ?>">API Dokumentasi</a></li>
-									<li aria-haspopup="true"><a href="buttons.html">Kontak Kami</a></li>
+									<li aria-haspopup="true"><a href="<?= url('index.php?page=contact') ?>">Kontak Kami</a></li>
 									<li aria-haspopup="true"><a href="<?= url('index.php?page=terms_of_service') ?>">Ketentuan Layanan</a></li>
-									<li aria-haspopup="true"><a href="avatars.html">Pertanyaan Umun</a></li>
+									<li aria-haspopup="true"><a href="<?= url('index.php?page=faq') ?>">Pertanyaan Umun</a></li>
 									<li aria-haspopup="true"><a href="<?= url('index.php?page=order_explanation') ?>">Penjelasan Pesanan</a></li>
 								</ul>
 							</li>
@@ -257,17 +257,6 @@ require_once 'global.php';
 				</div>
 				<!-- Right-sidebar-->
 				<div class="sidebar sidebar-right sidebar-animate">
-					<div class="tab-menu-heading siderbar-tabs border-0">
-						<div class="tabs-menu ">
-							<!-- Tabs -->
-							<ul class="nav panel-tabs">
-								<li class=""><a href="<?= url('index.php?page=profile') ?>" class="active">Profile</a></li>
-								<!-- <li class=""><a href="#tab1" data-toggle="tab">Chat</a></li>
-								<li><a href="#tab2" data-toggle="tab">Activity</a></li>
-								<li><a href="#tab3" data-toggle="tab">Todo</a></li> -->
-							</ul>
-						</div>
-					</div>
 					<div class="panel-body tabs-menu-body side-tab-body p-0 border-0 ">
 						<div class="tab-content border-top">
 							<div class="tab-pane active " id="tab">
@@ -276,28 +265,8 @@ require_once 'global.php';
 										<span class="avatar avatar-xxl brround"><img src="img/user.png" alt="Profile-img" class="avatar avatar-xxl brround"></span>
 										<div class="dropdown-item text-center font-weight-semibold user h3 mb-0">Rian Dafa</div>
 										<small>Developers</small>
-										<div class="card-body">
-											<div class="form-group ">
-												<label class="form-label  text-left">Offline/Online</label>
-												<select class="form-control select2 " data-placeholder="Choose one">
-													<option label="Choose one">
-													</option>
-													<option value="1">Online</option>
-													<option value="2">Offline</option>
-												</select>
-											</div>
-											<div class="form-group ">
-												<label class="form-label text-left">Website</label>
-												<select class="form-control select2 " data-placeholder="Choose one">
-													<option label="Choose one">
-													</option>
-													<option value="1">Spruko.com</option>
-													<option value="2">sprukosoft.com</option>
-													<option value="3">sprukotechnologies.com</option>
-													<option value="4">sprukoinfo.com</option>
-													<option value="5">sprukotech.com</option>
-												</select>
-											</div>
+										<div class="my-3">
+											<a href="<?= url('index.php?page=profile') ?>" class="btn btn-primary">Profil & Pengaturan</a>
 										</div>
 									</div>
 									<a class="dropdown-item  border-top" href="<?= url('index.php?page=account_activity') ?>">
@@ -752,6 +721,48 @@ require_once 'global.php';
 	<!-- Custom js-->
 	<script src="assets/js/custom.js"></script>
 
+	<!-- apexchart -->
+	<script src="assets/plugins/apexcharts/dist/apexcharts.min.js"></script>
+
+	<script>
+		$('#newsModal').modal('show')
+
+		var options = {
+			series: [{
+				name: "Desktops",
+				data: [10, 41, 35, 51, 49, 62, 69, 91, 148]
+			}],
+			chart: {
+				height: 300,
+				type: 'line',
+				zoom: {
+					enabled: false
+				}
+			},
+			dataLabels: {
+				enabled: false
+			},
+			stroke: {
+				curve: 'straight'
+			},
+			title: {
+				text: '',
+				align: 'left'
+			},
+			grid: {
+				row: {
+					colors: ['#f3f3f3', 'transparent'], // takes an array which will be repeated on columns
+					opacity: 0.5
+				},
+			},
+			xaxis: {
+				categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep'],
+			}
+		};
+
+		var chart = new ApexCharts(document.querySelector("#chart"), options);
+		chart.render();
+	</script>
 </body>
 
 </html>
