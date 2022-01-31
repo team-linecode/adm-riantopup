@@ -5,6 +5,18 @@
 				<div class="card-title"><i class="fa mr-2 fa-bar-chart"></i> Grafik Mingguan</div>
 			</div>
 			<div class="card-body">
+				<div class="row align-items-center">
+					<div class="col-lg-4">
+						<h1 class="font-weight-bold">Rp 0</h1>
+						<div class="small text-danger mb-3">
+							<i class="fe fe-arrow-down"></i> -100% Berkurang dibanding minggu kemarin
+						</div>
+						<small class="d-block mb-3 mb-md-0">Grafik dibandingkan dengan data minggu kemarin.</small>
+					</div>
+					<div class="col-lg-8">
+						<div id="chart"></div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -238,12 +250,6 @@
 	</div>
 </div>
 
-
-
-
-
-
-
 <!-- Grid Modal -->
 <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModal2" aria-hidden="true">
 	<div class="modal-dialog" role="document">
@@ -268,6 +274,45 @@
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="newsModal" tabindex="-1" aria-labelledby="newsModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-scrollable modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="newsModalLabel"><i class="fa fa-bell"></i> Berita & Informasi</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="card text-white bg-gradient-primary">
+					<div class="card-body">
+						<h4 class="card-title">
+							<div class="row align-items-center">
+								<div class="col-lg-6">
+									<div class="badge badge-secondary">INFO</div> Diamond Mobile Legends
+								</div>
+								<div class="col-lg-6 text-right">
+									<small class="text-white mb-0">16 November 2021, 20:13:21</small>
+								</div>
+							</div>
+						</h4>
+						<small class="card-text">
+							MOBILE LEGENDS SERVER 1 PROSES DETIKAN !<br>
+							APABILA SERVER 1 GANGGUAN / ERROR SILAHKAN PILIH SERVER 2 !<br>
+							<br><br>
+							PROSES DETIKAN DAN MURAH!
+						</small>
+					</div>
+				</div>
+			</div>
+			<div class="modal-footer justify-content-center">
+				<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fe fe-check"></i> Saya Sudah Membaca</button>
 			</div>
 		</div>
 	</div>

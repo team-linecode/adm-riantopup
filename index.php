@@ -106,46 +106,62 @@ require_once 'global.php';
 									<span class="pulse bg-success"></span>
 								</a>
 								<div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow ">
-									<a href="#" class="dropdown-item text-center">4 New Notifications</a>
+									<a href="#" class="dropdown-item text-center">Notifikasi PC</a>
+									<div class=" tab-menu-heading">
+										<div class="tabs-menu1">
+											<!-- Tabs -->
+											<ul class="nav panel-tabs">
+												<li><a href="#message" class="active" data-toggle="tab">Pesan</a></li>
+												<li><a href="#promo" data-toggle="tab">Promo</a></li>
+												<li><a href="#history" data-toggle="tab">Riwayat</a></li>
+											</ul>
+										</div>
+									</div>
 									<div class="dropdown-divider"></div>
-									<a href="#" class="dropdown-item d-flex pb-3">
-										<div class="notifyimg bg-green">
-											<i class="fe fe-mail"></i>
+									<div class="tab-content">
+										<div class="tab-pane active" id="message">
+											<a href="#" class="dropdown-item d-flex pb-3">
+												<div class="notifyimg bg-green">
+													<i class="fe fe-arrow-up"></i>
+												</div>
+												<div>
+													<strong>Penambahan Saldo (Rp 25.770)</strong>
+													<div class="small text-muted">31 Januari 2022, 11:31:04</div>
+												</div>
+											</a>
+											<a href="#" class="dropdown-item d-flex pb-3">
+												<div class="notifyimg bg-red">
+													<i class="fe fe-arrow-down"></i>
+												</div>
+												<div>
+													<strong>Pengurangan Saldo (Rp 55.650)</strong>
+													<div class="small text-muted">31 Januari 2022, 09:52:58</div>
+												</div>
+											</a>
 										</div>
-										<div>
-											<strong>Message Sent.</strong>
-											<div class="small text-muted">12 mins ago</div>
+										<div class="tab-pane" id="promo">
+											<a href="#" class="dropdown-item d-flex pb-3">
+												<div class="notifyimg bg-green">
+													<i class="fa fa-gift"></i>
+												</div>
+												<div>
+													<strong>Diamond ML Turun Harga</strong>
+													<div class="small text-muted">31 Januari 2022, 09:52:58</div>
+												</div>
+											</a>
 										</div>
-									</a>
-									<a href="#" class="dropdown-item d-flex pb-3">
-										<div class="notifyimg bg-pink">
-											<i class="fe fe-shopping-cart"></i>
+										<div class="tab-pane" id="history">
+											<a href="#" class="dropdown-item d-flex pb-3">
+												<div class="notifyimg bg-blue">
+													<i class="fe fe-shopping-cart"></i>
+												</div>
+												<div>
+													<strong>Pembelian Mobile Legends 257 Di...</strong>
+													<div class="small text-muted">31 Januari 2022, 09:52:58</div>
+												</div>
+											</a>
 										</div>
-										<div>
-											<strong>Order Placed</strong>
-											<div class="small text-muted">2 hour ago</div>
-										</div>
-									</a>
-									<a href="#" class="dropdown-item d-flex pb-3">
-										<div class="notifyimg bg-blue">
-											<i class="fe fe-calendar"></i>
-										</div>
-										<div>
-											<strong> Event Started</strong>
-											<div class="small text-muted">1 hour ago</div>
-										</div>
-									</a>
-									<a href="#" class="dropdown-item d-flex pb-3">
-										<div class="notifyimg bg-orange">
-											<i class="fe fe-monitor"></i>
-										</div>
-										<div>
-											<strong>Your Admin Lanuch</strong>
-											<div class="small text-muted">2 days ago</div>
-										</div>
-									</a>
-									<div class="dropdown-divider"></div>
-									<a href="#" class="dropdown-item text-center">View all Notifications</a>
+									</div>
 								</div>
 							</div><!-- notifications -->
 							<div class="dropdown header-user">
@@ -224,9 +240,9 @@ require_once 'global.php';
 							<li aria-haspopup="true"><a href="#" class="sub-icon"><i class="typcn typcn-book"></i> Halaman <i class="fa fa-angle-down horizontal-icon"></i></a>
 								<ul class="sub-menu">
 									<li aria-haspopup="true"><a href="<?= url('index.php?page=api') ?>">API Dokumentasi</a></li>
-									<li aria-haspopup="true"><a href="buttons.html">Kontak Kami</a></li>
+									<li aria-haspopup="true"><a href="<?= url('index.php?page=contact') ?>">Kontak Kami</a></li>
 									<li aria-haspopup="true"><a href="<?= url('index.php?page=terms_of_service') ?>">Ketentuan Layanan</a></li>
-									<li aria-haspopup="true"><a href="avatars.html">Pertanyaan Umun</a></li>
+									<li aria-haspopup="true"><a href="<?= url('index.php?page=faq') ?>">Pertanyaan Umun</a></li>
 									<li aria-haspopup="true"><a href="<?= url('index.php?page=order_explanation') ?>">Penjelasan Pesanan</a></li>
 								</ul>
 							</li>
@@ -252,47 +268,16 @@ require_once 'global.php';
 				</div>
 				<!-- Right-sidebar-->
 				<div class="sidebar sidebar-right sidebar-animate">
-					<div class="tab-menu-heading siderbar-tabs border-0">
-						<div class="tabs-menu ">
-							<!-- Tabs -->
-							<ul class="nav panel-tabs">
-								<li class=""><a href="#tab" class="active" data-toggle="tab">Profile</a></li>
-								<!-- <li class=""><a href="#tab1" data-toggle="tab">Chat</a></li>
-								<li><a href="#tab2" data-toggle="tab">Activity</a></li>
-								<li><a href="#tab3" data-toggle="tab">Todo</a></li> -->
-							</ul>
-						</div>
-					</div>
 					<div class="panel-body tabs-menu-body side-tab-body p-0 border-0 ">
 						<div class="tab-content border-top">
 							<div class="tab-pane active " id="tab">
 								<div class="card-body p-0">
 									<div class="header-user text-center mt-4 pb-4">
 										<span class="avatar avatar-xxl brround"><img src="img/user.png" alt="Profile-img" class="avatar avatar-xxl brround"></span>
-										<div class="dropdown-item text-center font-weight-semibold user h3 mb-0">Alison</div>
-										<small>Web Designer</small>
-										<div class="card-body">
-											<div class="form-group ">
-												<label class="form-label  text-left">Offline/Online</label>
-												<select class="form-control select2 " data-placeholder="Choose one">
-													<option label="Choose one">
-													</option>
-													<option value="1">Online</option>
-													<option value="2">Offline</option>
-												</select>
-											</div>
-											<div class="form-group ">
-												<label class="form-label text-left">Website</label>
-												<select class="form-control select2 " data-placeholder="Choose one">
-													<option label="Choose one">
-													</option>
-													<option value="1">Spruko.com</option>
-													<option value="2">sprukosoft.com</option>
-													<option value="3">sprukotechnologies.com</option>
-													<option value="4">sprukoinfo.com</option>
-													<option value="5">sprukotech.com</option>
-												</select>
-											</div>
+										<div class="dropdown-item text-center font-weight-semibold user h3 mb-0">Rian Dafa</div>
+										<small>Developers</small>
+										<div class="my-3">
+											<a href="<?= url('index.php?page=profile') ?>" class="btn btn-primary">Profil & Pengaturan</a>
 										</div>
 									</div>
 									<a class="dropdown-item  border-top" href="<?= url('index.php?page=account_activity') ?>">
@@ -747,6 +732,48 @@ require_once 'global.php';
 	<!-- Custom js-->
 	<script src="assets/js/custom.js"></script>
 
+	<!-- apexchart -->
+	<script src="assets/plugins/apexcharts/dist/apexcharts.min.js"></script>
+
+	<script>
+		$('#newsModal').modal('show')
+
+		var options = {
+			series: [{
+				name: "Desktops",
+				data: [10, 41, 35, 51, 49, 62, 69, 91, 148]
+			}],
+			chart: {
+				height: 300,
+				type: 'line',
+				zoom: {
+					enabled: false
+				}
+			},
+			dataLabels: {
+				enabled: false
+			},
+			stroke: {
+				curve: 'straight'
+			},
+			title: {
+				text: '',
+				align: 'left'
+			},
+			grid: {
+				row: {
+					colors: ['#f3f3f3', 'transparent'], // takes an array which will be repeated on columns
+					opacity: 0.5
+				},
+			},
+			xaxis: {
+				categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep'],
+			}
+		};
+
+		var chart = new ApexCharts(document.querySelector("#chart"), options);
+		chart.render();
+	</script>
 </body>
 
 </html>
