@@ -663,63 +663,9 @@ require_once 'global.php';
 	<!-- End Page -->
 
 	<!--footer-->
-	<div class="bg-dark py-5">
-		<div class="container mt-5">
+	<div class="bg-white py-4">
+		<div class="container">
 			<div class="top-footer">
-				<div class="row">
-					<div class="col-lg-5 mt-4">
-						<h4 class="brand-font mb-4">Tentang Rian Topup</h4>
-						<p>Rian Topup Adalah Sebuah Platform Bisnis Yang Menyediakan Berbagai Layanan Multi Media Marketing Yang Bergerak Terutama Di Indonesia. Dengan Bergabung Bersama Kami, Anda Dapat Menjadi Penyedia Jasa Sosial Media Atau Reseller Sosial Media Seperti Jasa Penambah Followers, Likes, Views, Subscribe, Dll. Saat Ini Tersedia Berbagai Layanan Untuk Sosial Media Terpopuler Seperti Instagram, Facebook, Twitter, Youtube, Dll. Dan Kamipun Juga Menyediakan Panel Pulsa & PPOB Seperti Pulsa All Operator, Paket Data, Saldo Gojek/Grab, Token PLN, All Voucher Game Online, Dll.</p>
-					</div>
-					<div class="col-lg-1 mt-4"></div>
-					<div class="col-lg-2 mt-4">
-						<h4 class="brand-font mb-4">Informasi</h4>
-						<ul class="list-unstyled">
-							<li><a href="javascript:;">Cara Daftar</a></li>
-							<li><a href="javascript:;">Cara Isi Saldo</a></li>
-							<li><a href="javascript:;">Cara Transaksi</a></li>
-							<li><a href="javascript:;">Pembayaran Isi Saldo</a></li>
-							<li><a href="javascript:;">API Dokumentasi</a></li>
-							<li><a href="javascript:;">Layanan Promo</a></li>
-						</ul>
-					</div>
-					<div class="col-lg-2 mt-4">
-						<h4 class="brand-font mb-4">SOSIAL MEDIA</h4>
-						<ul class="list-unstyled">
-							<li class="mb-3">
-								<a href="javascript:;">
-									<div class="d-flex align-self-center">
-										<div class="sosmed mr-3 text-center">
-											<h4 class="mt-2"><i class="fa fa-facebook"></i></h4>
-										</div>
-										Facebook
-									</div>
-								</a>
-							</li>
-							<li class="mb-3">
-								<a href="javascript:;">
-									<div class="d-flex align-self-center">
-										<div class="sosmed mr-3 text-center">
-											<h4 class="mt-2"><i class="fa fa-instagram"></i></h4>
-										</div>
-										Instagram
-									</div>
-								</a>
-							</li>
-							<li class="mb-3">
-								<a href="javascript:;">
-									<div class="d-flex align-self-center">
-										<div class="sosmed mr-3 text-center">
-											<h4 class="mt-2"><i class="fa fa-whatsapp"></i></h4>
-										</div>
-										WhatsApp
-									</div>
-								</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-				<hr>
 				<footer class="pl-0 pr-0">
 					<div class="row ">
 						<div class="col-xl-8 col-lg-12 col-md-12 footer1">
@@ -736,7 +682,6 @@ require_once 'global.php';
 					</div>
 				</footer>
 			</div>
-
 		</div>
 	</div>
 	<!-- End Footer-->
