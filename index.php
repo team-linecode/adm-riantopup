@@ -198,11 +198,12 @@ require_once 'global.php';
 									</div>
 								</div>
 							</div><!-- profile -->
-							<div class="dropdown">
+							<!-- <div class="dropdown">
 								<a class="nav-link icon siderbar-link" data-toggle="sidebar-right" data-target=".sidebar-right">
 									<i class="fe fe-more-horizontal"></i>
 								</a>
-							</div><!-- Right-siebar-->
+							</div> -->
+							<!-- Right-siebar-->
 						</div>
 					</div>
 				</div>
