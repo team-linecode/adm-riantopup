@@ -1,45 +1,53 @@
 <div class="row">
-	<div class="col-lg-3 col-6">
+	<div class="col-lg-3">
 		<div class="card">
-			<div class="card-body text-center">
+			<div class="card-body d-flex">
 				<span class="bg-success-transparent icon-service text-success">
 					<i class="si si-layers fs-2"></i>
 				</span>
-				<p class="card-text text-muted mb-1 mt-5">Saldo Terpakai</p>
-				<h3 class="mb-0 text-dark mainvalue font-weight-semibold">Rp. 19.488.120</h3>
+				<div class="align-self-center ml-3">
+					<p class="card-text text-muted mb-1 mt-0">Saldo Terpakai</p>
+					<h4 class="mb-0 text-dark mainvalue font-weight-semibold">Rp. 999.488.120</h4>
+				</div>
 			</div>
 		</div>
 	</div>
-	<div class="col-lg-3 col-6">
+	<div class="col-lg-3">
 		<div class="card">
-			<div class="card-body text-center">
+			<div class="card-body d-flex">
 				<span class="bg-primary-transparent icon-service text-primary ">
 					<i class="fa fa-sticky-note-o  fs-2"></i>
 				</span>
-				<p class="card-text text-muted mb-1 mt-5">Total Layanan</p>
-				<h3 class="mb-0 text-dark mainvalue font-weight-semibold">500</h3>
+				<div class="align-self-center ml-3">
+					<p class="card-text text-muted mb-1 mt-0">Total Layanan</p>
+					<h3 class="mb-0 text-dark mainvalue font-weight-semibold">500</h3>
+				</div>
 			</div>
 		</div>
 	</div>
-	<div class="col-lg-3 col-6">
+	<div class="col-lg-3">
 		<div class="card">
-			<div class="card-body text-center">
+			<div class="card-body d-flex">
 				<span class="bg-danger-transparent icon-service text-danger">
 					<i class="fa fa-bar-chart  fs-2"></i>
 				</span>
-				<p class="card-text text-muted mb-1 mt-5">Jumlah Pesanan</p>
-				<h3 class="mb-0 text-dark mainvalue font-weight-semibold">1345</h3>
+				<div class="align-self-center ml-3">
+					<p class="card-text text-muted mb-1 mt-0">Jumlah Pesanan</p>
+					<h3 class="mb-0 text-dark mainvalue font-weight-semibold">1345</h3>
+				</div>
 			</div>
 		</div>
 	</div>
-	<div class="col-lg-3 col-6">
+	<div class="col-lg-3">
 		<div class="card">
-			<div class="card-body text-center">
+			<div class="card-body d-flex">
 				<span class="bg-warning-transparent icon-service text-warning">
 					<i class="fa fa-user  fs-2"></i>
 				</span>
-				<p class="card-text text-muted mb-1 mt-5">IP Address</p>
-				<h3 class="mb-0 text-dark mainvalue font-weight-semibold">114.79.3.79</h3>
+				<div class="align-self-center ml-3">
+					<p class="card-text text-muted mb-1 mt-0">IP Address</p>
+					<h3 class="mb-0 text-dark mainvalue font-weight-semibold">114.79.3.79</h3>
+				</div>
 			</div>
 		</div>
 	</div>
