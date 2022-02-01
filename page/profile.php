@@ -87,7 +87,7 @@
                                 </div>
                             </div>
                             <hr>
-                            <div class="d-flex justify-content-center">
+                            <div class="d-flex justify-content-end">
                                 <button class="btn btn-primary mr-1">Submit</button>
                                 <button type="reset" class="btn btn-danger ml-1">Ulangi</button>
                             </div>
@@ -124,7 +124,7 @@
                                 </div>
                             </div>
                             <hr>
-                            <div class="d-flex justify-content-center">
+                            <div class="d-flex justify-content-end">
                                 <button class="btn btn-primary mr-1">Submit</button>
                                 <button type="reset" class="btn btn-danger ml-1">Ulangi</button>
                             </div>
@@ -160,7 +160,7 @@
                                 </div>
                             </div>
                             <hr>
-                            <div class="d-flex justify-content-center">
+                            <div class="d-flex justify-content-end">
                                 <button class="btn btn-primary mr-1">Submit</button>
                                 <button type="reset" class="btn btn-danger ml-1">Ulangi</button>
                             </div>
@@ -175,11 +175,11 @@
                                         <div class="input-group-text"><i class="fa fa-code tx-16 lh-0 op-6"></i></div>
                                     </div>
                                     <input type="text" class="form-control" value="qiUQErgtQ6wmnYQKwWaD" readonly>
-                                    <span class="input-group-append"><button class="btn btn-primary">Ganti API Key</button></span>
+                                    <span class="input-group-append"><button class="btn btn-gray">Ganti API Key</button></span>
                                 </div>
                             </div>
                             <hr>
-                            <div class="d-flex justify-content-center">
+                            <div class="d-flex justify-content-end">
                                 <button class="btn btn-primary mr-1">Submit</button>
                                 <button type="reset" class="btn btn-danger ml-1">Ulangi</button>
                             </div>
