@@ -1,70 +1,4 @@
 <div class="row">
-	<div class="col-lg-3 col-6">
-		<div class="card">
-			<div class="card-body text-center">
-				<span class="bg-success-transparent icon-service text-success">
-					<i class="si si-layers fs-2"></i>
-				</span>
-				<p class="card-text text-muted mb-1 mt-5">Saldo Terpakai</p>
-				<h3 class="mb-0 text-dark mainvalue font-weight-semibold">Rp. 19.488.120</h3>
-			</div>
-		</div>
-	</div>
-	<div class="col-lg-3 col-6">
-		<div class="card">
-			<div class="card-body text-center">
-				<span class="bg-primary-transparent icon-service text-primary ">
-					<i class="fa fa-sticky-note-o  fs-2"></i>
-				</span>
-				<p class="card-text text-muted mb-1 mt-5">Total Layanan</p>
-				<h3 class="mb-0 text-dark mainvalue font-weight-semibold">500</h3>
-			</div>
-		</div>
-	</div>
-	<div class="col-lg-3 col-6">
-		<div class="card">
-			<div class="card-body text-center">
-				<span class="bg-danger-transparent icon-service text-danger">
-					<i class="fa fa-bar-chart  fs-2"></i>
-				</span>
-				<p class="card-text text-muted mb-1 mt-5">Jumlah Pesanan</p>
-				<h3 class="mb-0 text-dark mainvalue font-weight-semibold">1345</h3>
-			</div>
-		</div>
-	</div>
-	<div class="col-lg-3 col-6">
-		<div class="card">
-			<div class="card-body text-center">
-				<span class="bg-warning-transparent icon-service text-warning">
-					<i class="fa fa-user  fs-2"></i>
-				</span>
-				<p class="card-text text-muted mb-1 mt-5">IP Address</p>
-				<h3 class="mb-0 text-dark mainvalue font-weight-semibold">114.79.3.79</h3>
-			</div>
-		</div>
-	</div>
-	<div class="col-lg-12">
-		<div class="card">
-			<div class="d-flex justify-content-between">
-				<div>
-					<div class="d-flex">
-						<div class="feature mr-4">
-							<div class="fa-stack fa-lg fa-2x icon bg-gradient-secondary">
-								<i class="fa fa-credit-card fa-stack-1x text-white"></i>
-							</div>
-						</div>
-						<div class="align-self-center">
-							<h5 class="text-muted mb-1">Adrian Dafa</h5>
-							<h3 class="mb-0 text-dark brand-font">Rp. 996.488.120</h3>
-						</div>
-					</div>
-				</div>
-				<div class="align-self-center">
-					<a href="<?= url('index.php?page=deposit') ?>" class="btn btn-primary mr-5"><i class="fa fa-plus"></i></a>
-				</div>
-			</div>
-		</div>
-	</div>
 	<div class="col-lg-7">
 		<div class="card mb-5">
 			<div class="card-header py-4">
@@ -85,6 +19,84 @@
 				</div>
 			</div>
 		</div>
+	</div>
+	<div class="col-lg-5">
+		<div class="row">
+			<div class="col-6">
+				<div class="card">
+					<div class="card-body text-center">
+						<span class="bg-primary-transparent icon-service text-primary ">
+							<i class="fa fa-credit-card  fs-2"></i>
+						</span>
+						<p class="card-text text-muted mb-1 mt-5">Sisa Saldo</p>
+						<h3 class="mb-0 text-dark mainvalue font-weight-semibold">Rp. 99.488.120</h4>
+					</div>
+				</div>
+			</div>
+			<div class="col-6">
+				<div class="card">
+					<div class="card-body text-center">
+						<span class="bg-success-transparent icon-service text-success">
+							<i class="si si-layers fs-2"></i>
+						</span>
+						<p class="card-text text-muted mb-1 mt-5">Saldo Terpakai</p>
+						<h3 class="mb-0 text-dark mainvalue font-weight-semibold">Rp. 99.488.120</h4>
+					</div>
+				</div>
+			</div>
+			<div class="col-6">
+				<div class="card">
+					<div class="card-body text-center">
+						<span class="bg-danger-transparent icon-service text-danger">
+							<i class="fa fa-bar-chart  fs-2"></i>
+						</span>
+						<p class="card-text text-muted mb-1 mt-5">Jumlah Pesanan</p>
+						<h3 class="mb-0 text-dark mainvalue font-weight-semibold">1345</h3>
+					</div>
+				</div>
+			</div>
+			<div class="col-6">
+				<div class="card">
+					<div class="card-body text-center">
+						<span class="bg-warning-transparent icon-service text-warning">
+							<i class="fa fa-user  fs-2"></i>
+						</span>
+						<p class="card-text text-muted mb-1 mt-5">IP Address</p>
+						<h3 class="mb-0 text-dark mainvalue font-weight-semibold">114.79.3.79</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-lg-7">
+		<!-- <div class="alert alert-success alert-dismissible fade show" role="alert">
+			<span class="alert-inner--icon"><i class="fa fa-whatsapp"></i></span>
+			<span class="alert-inner--text"><strong>Join Group WhatsApp</strong> <a href="" class="ml-1">KLIK DISINI</a></span>
+			<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+				<span aria-hidden="true">×</span>
+			</button>
+		</div>
+
+		<div class="card mt-5">
+			<div class="d-flex justify-content-between">
+				<div>
+					<div class="d-flex">
+						<div class="feature mr-4">
+							<div class="fa-stack fa-lg fa-2x icon bg-gradient-secondary">
+								<i class="fa fa-credit-card fa-stack-1x text-white"></i>
+							</div>
+						</div>
+						<div class="align-self-center">
+							<h5 class="text-muted mb-1">Adrian Dafa</h5>
+							<h3 class="mb-0 text-dark brand-font">Rp. 996.488.120</h3>
+						</div>
+					</div>
+				</div>
+				<div class="align-self-center">
+					<a href="<?= url('index.php?page=deposit') ?>" class="btn btn-primary mr-5"><i class="fa fa-plus"></i></a>
+				</div>
+			</div>
+		</div> -->
 
 
 		<div class="card mb-5">
@@ -192,7 +204,6 @@
 		</div>
 	</div>
 	<div class="col-lg-5">
-
 		<div class="card mb-5">
 			<div class="card-header">
 				<div class="card-title">Berita Terbaru | Update</div>
@@ -240,6 +251,35 @@
 					</a>
 				</div>
 				<hr class="my-3">
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Grid Modal -->
+<div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModal2" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title font-weight-bold" id="example-Modal2">ALL Kategori</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">×</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="row">
+					<?php for ($i = 0; $i < 18; $i++) : ?>
+						<div class="col-lg-2 text-center mb-4">
+							<a href="" class="text-decoration-none">
+								<img src="img/service/modal/1.png" alt="" width="45">
+								<h5 class="mt-3 text-dark font-weight-semibold">Title</h5>
+							</a>
+						</div>
+					<?php endfor ?>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
 			</div>
 		</div>
 	</div>
