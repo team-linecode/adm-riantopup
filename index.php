@@ -72,11 +72,11 @@ require_once 'global.php';
 						<a class="header-brand" href="index.html">
 							<div class="d-none d-lg-block d-md-block">
 								<div class="d-flex mt-2 align-self-center align-items-center">
-									<img src="img/logo.png" class="header-brand-img mt-0" alt="Hogo logo">
+									<img src="assets/img/logo.png" class="header-brand-img mt-0" alt="Hogo logo">
 									<h4 class="m-0 ml-3 brand-font"><span class="text-brand">RIAN</span> TOPUP</h4>
 								</div>
 							</div>
-							<img src="img/logo.png" class="header-brand-img icon-logo" alt="Hogo logo">
+							<img src="assets/img/logo.png" class="header-brand-img icon-logo" alt="Hogo logo">
 						</a><!-- logo-->
 						<a id="horizontal-navtoggle" class="animated-arrow hor-toggle"><span></span></a>
 						<div class="d-flex order-lg-2 ml-auto header-rightmenu">
@@ -169,11 +169,11 @@ require_once 'global.php';
 									<span class="mr-3 d-none d-lg-block ">
 										<span class="text-gray-white"><span class="ml-2">Alison</span></span>
 									</span>
-									<span class="avatar avatar-md brround"><img src="img/user.png" alt="Profile-img" class="avatar avatar-md brround"></span>
+									<span class="avatar avatar-md brround"><img src="assets/img/user.png" alt="Profile-img" class="avatar avatar-md brround"></span>
 								</a>
 								<div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
 									<div class="header-user text-center mt-4 pb-4">
-										<span class="avatar avatar-xxl brround"><img src="img/user.png" alt="Profile-img" class="avatar avatar-xxl brround"></span>
+										<span class="avatar avatar-xxl brround"><img src="assets/img/user.png" alt="Profile-img" class="avatar avatar-xxl brround"></span>
 										<a href="#" class="dropdown-item text-center font-weight-semibold user h3 mb-0">Alison</a>
 										<small>Web Designer</small>
 									</div>
@@ -274,7 +274,7 @@ require_once 'global.php';
 							<div class="tab-pane active " id="tab">
 								<div class="card-body p-0">
 									<div class="header-user text-center mt-4 pb-4">
-										<span class="avatar avatar-xxl brround"><img src="img/user.png" alt="Profile-img" class="avatar avatar-xxl brround"></span>
+										<span class="avatar avatar-xxl brround"><img src="assets/img/user.png" alt="Profile-img" class="avatar avatar-xxl brround"></span>
 										<div class="dropdown-item text-center font-weight-semibold user h3 mb-0">Rian Dafa</div>
 										<small>Developers</small>
 										<div class="my-3">

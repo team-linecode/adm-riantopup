@@ -6,7 +6,7 @@
                 <a href="<?= url('index.php?page=topup_game') ?>" class="text-decoration-none">
                     <div class="card border-0 shadow-sm">
                         <div class="card-body d-flex">
-                            <img src="img/service/game/3.png" alt="" class="img-game">
+                            <img src="assets/img/service/game/3.png" alt="" class="img-game">
                             <div class="align-self-center ml-3">
                                 <h4 class="font-medium mt-3">Capsa Susun</h4>
                             </div>
@@ -18,7 +18,7 @@
                 <a href="<?= url('index.php?page=topup_game') ?>" class="text-decoration-none">
                     <div class="card border-0 shadow-sm">
                         <div class="card-body d-flex">
-                            <img src="img/service/game/17.png" alt="" class="img-game">
+                            <img src="assets/img/service/game/17.png" alt="" class="img-game">
                             <div class="align-self-center ml-3">
                                 <h4 class="font-medium mt-3">Capsa Susun</h4>
                             </div>
@@ -30,7 +30,7 @@
                 <a href="<?= url('index.php?page=topup_game') ?>" class="text-decoration-none">
                     <div class="card border-0 shadow-sm">
                         <div class="card-body d-flex">
-                            <img src="img/service/game/15.jpg" alt="" class="img-game">
+                            <img src="assets/img/service/game/15.jpg" alt="" class="img-game">
                             <div class="align-self-center ml-3">
                                 <h4 class="font-medium mt-3">Capsa Susun</h4>
                             </div>
@@ -42,7 +42,7 @@
                 <a href="<?= url('index.php?page=topup_game') ?>" class="text-decoration-none">
                     <div class="card border-0 shadow-sm">
                         <div class="card-body d-flex">
-                            <img src="img/service/game/18.jpg" alt="" class="img-game">
+                            <img src="assets/img/service/game/18.jpg" alt="" class="img-game">
                             <div class="align-self-center ml-3">
                                 <h4 class="font-medium mt-3">Capsa Susun</h4>
                             </div>
@@ -54,7 +54,7 @@
                 <a href="<?= url('index.php?page=topup_game') ?>" class="text-decoration-none">
                     <div class="card border-0 shadow-sm">
                         <div class="card-body d-flex">
-                            <img src="img/service/game/19.jpg" alt="" class="img-game">
+                            <img src="assets/img/service/game/19.jpg" alt="" class="img-game">
                             <div class="align-self-center ml-3">
                                 <h4 class="font-medium mt-3">Capsa Susun</h4>
                             </div>
@@ -66,7 +66,7 @@
                 <a href="<?= url('index.php?page=topup_game') ?>" class="text-decoration-none">
                     <div class="card border-0 shadow-sm">
                         <div class="card-body d-flex">
-                            <img src="img/service/game/3.png" alt="" class="img-game">
+                            <img src="assets/img/service/game/3.png" alt="" class="img-game">
                             <div class="align-self-center ml-3">
                                 <h4 class="font-medium mt-3">Capsa Susun</h4>
                             </div>
@@ -78,7 +78,7 @@
                 <a href="<?= url('index.php?page=topup_game') ?>" class="text-decoration-none">
                     <div class="card border-0 shadow-sm">
                         <div class="card-body d-flex">
-                            <img src="img/service/game/17.png" alt="" class="img-game">
+                            <img src="assets/img/service/game/17.png" alt="" class="img-game">
                             <div class="align-self-center ml-3">
                                 <h4 class="font-medium mt-3">Capsa Susun</h4>
                             </div>
@@ -90,7 +90,7 @@
                 <a href="<?= url('index.php?page=topup_game') ?>" class="text-decoration-none">
                     <div class="card border-0 shadow-sm">
                         <div class="card-body d-flex">
-                            <img src="img/service/game/15.jpg" alt="" class="img-game">
+                            <img src="assets/img/service/game/15.jpg" alt="" class="img-game">
                             <div class="align-self-center ml-3">
                                 <h4 class="font-medium mt-3">Capsa Susun</h4>
                             </div>
@@ -102,7 +102,7 @@
                 <a href="<?= url('index.php?page=topup_game') ?>" class="text-decoration-none">
                     <div class="card border-0 shadow-sm">
                         <div class="card-body d-flex">
-                            <img src="img/service/game/18.jpg" alt="" class="img-game">
+                            <img src="assets/img/service/game/18.jpg" alt="" class="img-game">
                             <div class="align-self-center ml-3">
                                 <h4 class="font-medium mt-3">Capsa Susun</h4>
                             </div>
@@ -114,7 +114,7 @@
                 <a href="<?= url('index.php?page=topup_game') ?>" class="text-decoration-none">
                     <div class="card border-0 shadow-sm">
                         <div class="card-body d-flex">
-                            <img src="img/service/game/19.jpg" alt="" class="img-game">
+                            <img src="assets/img/service/game/19.jpg" alt="" class="img-game">
                             <div class="align-self-center ml-3">
                                 <h4 class="font-medium mt-3">Capsa Susun</h4>
                             </div>
